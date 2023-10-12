@@ -1,0 +1,137 @@
+.whyChooseus{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyChooseus .container{
+    color: white;
+    width:70%;
+    height: 80%;
+    background: rgba(1, 1, 1, 0.188);
+    /* border: 1px solid white; */
+    /* box-shadow: 10px 10px 10px rgb(103, 103, 103); */
+    border-radius: 30px;
+}
+
+.whyChooseus .container center h2{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Mooli';
+    text-align: center;
+    margin-top: 30px;
+}
+
+.whyChooseus .container .daba{
+    width:90%;
+    height: 70%;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.whyChooseus .container .daba .boox{
+    width:40%;
+    height: 80%;
+    background: rgba(1, 1, 1, 0.288);
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.whyChooseus .container .daba .boox h1{
+    font-size: 20px;
+    /* font-family: 'Mooli'; */
+    margin: 5px;
+    text-align: center;
+}
+.whyChooseus .container .daba .boox img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width:1033px) {
+    .whyChooseus{
+        height: 100%;
+    }
+    .whyChooseus .container .daba{
+        flex-direction: column;
+    }
+    .whyChooseus .container .daba .boox{
+        width: 80%;
+        height: 40%;
+        margin: 10px;
+    }
+    .whyChooseus .container .daba .boox img{
+        width: 80px;
+        height: 80px;
+    }
+    .whyChooseus .container .daba .boox h1{
+        font-size: 15px;
+    }
+    .whyChooseus .container center h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .whyChooseus{
+        height: 100%;
+    }
+    .whyChooseus .container .daba{
+        flex-direction: column;
+    }
+    .whyChooseus .container .daba .boox{
+        width: 80%;
+        height: 40%;
+        margin: 10px;
+    }
+    .whyChooseus .container .daba .boox img{
+        width: 80px;
+        height: 80px;
+    }
+    .whyChooseus .container .daba .boox h1{
+        font-size: 15px;
+    }
+    .whyChooseus .container center h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .whyChooseus{
+        height: 100%;
+    }
+    .whyChooseus .container .daba{
+        flex-direction: column;
+    }
+    .whyChooseus .container .daba .boox{
+        width: 100%;
+        height: 50%;
+        margin: 10px;
+        padding:3% ;
+        border: 1px solid white;
+    }
+    .whyChooseus .container .daba .boox img{
+        width: 80px;
+        height: 80px;
+    }
+    .whyChooseus .container .daba .boox h1{
+        font-size: 15px;
+    }
+    .whyChooseus .container center h2{
+        font-size: 20px;
+    }
+}

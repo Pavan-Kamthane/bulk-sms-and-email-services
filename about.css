@@ -1,0 +1,177 @@
+.about,.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: white;
+
+    /* background: black; */
+}
+
+.about .box{
+    width: 70%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.522);
+    border: 1px solid white;
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+}
+
+.about .box .left{
+    width:50%;
+    height: 50%;
+    padding-left:50px;
+    
+}
+
+.about .box .left h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.about .box .left p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about .box .left button{
+    width: 50% ;
+    background: transparent;
+    border:none;
+    margin-top: 7px;
+}
+
+.about .box .left button a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    border: 1px solid yellow;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.about .box .left button a:hover{
+    background: yellow;
+    color: black;
+    /* border */
+    box-shadow: 1px 1px 10px yellow;
+}
+
+
+
+
+.about .box .right{
+    width:50%;
+    height: 50%;
+    /* border: 1px solid white; */
+    background: url("./img/email.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+@media screen and  (max-width:1210px) {
+    .about .box{
+        width: 80%;
+        height: 60%;
+    }
+    .about .box .left{
+        width: 50%;
+        height: 50%;
+    }
+    .about .box .right{
+        width: 50%;
+        height: 50%;
+    }
+
+    .about .box .left button a{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and  (max-width:1031px) {
+    .about .box{
+        width: 80%;
+        height: 60%;
+    }
+    .about .box .left{
+        width: 50%;
+        height: 50%;
+    }
+    .about .box .right{
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
+@media screen and  (max-width:954px) {
+    .about .box{
+        width: 80%;
+        height: 60%;
+    }
+    .about .box .left{
+        width: 50%;
+        height: 50%;
+    }
+    .about .box .right{
+        width: 50%;
+        height: 50%;
+    }
+
+    .about .box .left button a{
+        padding: 10px 10px;
+    }
+
+}
+
+@media screen and  (max-width:850px) {
+    .about .box{
+        width: 85%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .box .left{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        border-radius: none!important ;
+
+    }
+
+    .about .box .left h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about .box .left p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .about .box .left button{
+        width: 50% ;
+        background: transparent;
+        border:none;
+        margin-top: 7px;
+        font-size: 15px;
+    }
+
+    .about .box .left button a{
+        font-size: 10px;
+        padding: 10px 10px;
+    }   
+
+    .about .box .right{
+        /* display: none; */
+        width: 100%;
+        height: 100%;
+    }
+}

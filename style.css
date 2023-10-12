@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(-45deg, #000000, #55108a,#490921 , #2623d5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+::-webkit-scrollbar{
+	width: 7.5px;
+	background: black;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #646464;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #fbfafa;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 30%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

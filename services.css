@@ -1,0 +1,174 @@
+.services {
+    width: 90%;
+    height: auto;
+    background: #0000006d;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 60px;
+}
+
+.services h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+
+}
+
+.services .boxs{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+    margin-top: 20px ;
+}
+
+.services .boxs .email{
+    width: 40%;
+    height: 100%;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+}
+
+.services .boxs .email h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+.services .boxs .email img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    margin: 20px 0;
+}
+.services .boxs .email p a{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    /* background-color: t; */
+    border: 2px solid white;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.services .boxs .email p a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+.services .boxs .email p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.services .boxs .sms{
+    width: 40%;
+    height: 100%;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+
+}
+
+.services .boxs .sms h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+.services .boxs .sms img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    margin: 20px 0;
+}
+
+.services .boxs .sms p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.services .boxs .sms p a{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    /* background-color: t; */
+    border: 2px solid white;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.services .boxs .sms p a:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:943px) {
+    .services .boxs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        /* border: 1px solid white; */
+        margin-top: 20px ;
+    }
+
+    .services .boxs .email{
+        width: 90%;
+        height: 100%;
+        border: 5px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70px;
+    }
+
+    
+    .services .boxs .sms{
+        width: 90%;
+        height: 100%;
+        border: 5px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70px;
+    }
+
+
+   
+}

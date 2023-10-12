@@ -1,0 +1,10 @@
+.header nav{
+    background-color: rgba(0, 0, 0, 0.814);
+    /* backdrop-filter: blur(10px); */
+    position: fixed;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.488);
+    backdrop-filter: blur(10px);
+}
